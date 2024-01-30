@@ -1,4 +1,4 @@
-const socket = io('ws://localhost:3500');
+const socket = io('https://dix-chat.onrender.com');
 
 const activity = document.querySelector('.activity');
 const msgInput = document.querySelector('.message__input');
