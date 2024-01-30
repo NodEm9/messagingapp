@@ -4,7 +4,10 @@
 users can see a list of active rooms and join any as they chooses fit.
 Also, a user can see the list of active users in room they are in.
 
-<img src="https://www.nodemma.com/_next/image?url=%2Fmsapp.png&w=640&q=75"  alt="App Picture" />
+</br>
+<img src="https://www.nodemma.com/_next/image?url=%2Fmessage-appl.webp&w=640&q=75"  alt="App Picture" />
+</br>
+</br>
 
 When a user joins a room a message is emitted to the user notifying the user of succefully joining and a message is broadcasted to the other users in the same room that user with the name has joined the room and also when a user leaves the room.
 
