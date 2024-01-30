@@ -23,7 +23,6 @@ body {
   background: var(--container-background-color);
   color: var(--color);
   border-radius: 1rem;
-
   margin-top: 2rem;
   width: 660px;
   border: 1px solid #000;
@@ -208,10 +207,9 @@ button {
     margin: auto;
     margin-top: 0.3rem;
     position: relative;
-    /* left: 0;
-    right: 0; */
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    min-height: 100vh;
   }
 
   .post__message {
