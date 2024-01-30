@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Socket IO</title>
+    <script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="/index.js"></script>
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="admin">Welcome Dix Chat App</h1>
+      <form class="chat-room">
+        <input
+          type="text"
+          id="room-name"
+          maxlength="8"
+          size="8"
+          placeholder="Enter Room Name"
+          class="room-name"
+        />
+        <input
+          type="text"
+          id="user"
+          maxlength="8"
+          size="5"
+          placeholder="Enter Name"
+          required
+          class="user"
+        />
+        <button type="submit" data-="join-button" class="join-button">
+          Join
+        </button>
+      </form>
+
+      <ul class="chat__message"></ul>
+      <p class="user-list"></p>
+      <p class="room-list"></p>
+      <p class="activity"></p>
+      <form id="message-form" class="message-form">
+        <input
+          type="text"
+          id="message"
+          class="message__input"
+          placeholder="Message"
+        />
+        <button type="submit" class="form__button">Send</button>
+      </form>
+    </main>
+  </body>
+</html>
