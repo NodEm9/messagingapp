@@ -1,5 +1,6 @@
 const socket = io('https://dix-chatapp.onrender.com');
 
+
 const activity = document.querySelector('.activity');
 const msgInput = document.querySelector('.message__input');
 const nameInput = document.querySelector('.user');
