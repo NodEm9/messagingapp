@@ -1,4 +1,4 @@
-const socket = io('https://dix-chat.onrender.com');
+const socket = io('https://dix-chatapp.onrender.com');
 
 const activity = document.querySelector('.activity');
 const msgInput = document.querySelector('.message__input');
