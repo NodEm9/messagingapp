@@ -31,6 +31,7 @@ body {
 }
 
 .admin {
+  position: static;
   color: var(--color);
   margin: 0 auto;
   font-size: 1.5rem;
@@ -38,6 +39,7 @@ body {
   background-color: var(--background-color);
   color: var(--color);
   padding: 0.5rem;
+  text-align: center;
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
 
@@ -201,6 +203,50 @@ button {
   color: var(--background-color);
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--background-color);
+  padding: 0.5rem;
+  height: auto;
+  width: 0 auto;
+  margin: auto;
+  width: 660px;
+  background-color: var(--color);
+  margin-top: 1rem;
+  padding: 3rem;
+  border-radius: 2rem;
+}
+
+.footer-note {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.footer-note>span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.75rem;
+}
+
+.footer__note {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  text-align: center;
+  margin-top: 1rem;
+  letter-spacing: 0.1rem;
+  font-style: italic;
+}
+
+i {
+  font-weight: normal;
+}
+
 @media screen and (max-width: 600px) {
   .container {
     width: auto;
@@ -209,7 +255,10 @@ button {
     position: relative;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    min-height: 100vh;
+  }
+
+  .admin {
+    position: sticky;
   }
 
   .post__message {
@@ -241,6 +290,20 @@ button {
     min-height: auto;
     margin-bottom: 1rem;
     margin-top: 1rem;
+  }
+
+  .footer {
+    width: auto;
+    margin: auto;
+    margin-top: 0.3rem;
+    position: relative;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 0.7rem;
+  }
+
+  i {
+    font-weight: normal;
   }
 
 }
