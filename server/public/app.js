@@ -128,7 +128,7 @@ function showUsers({ users }) {
 function showRooms({ rooms }) {
   roomsList.textContent = '';
   if (rooms) {
-    roomsList.innerHTML = `<em class="room__list">Active Rooms:</em>`
+    roomsList.innerHTML = `<em class="room__list">Active Rooms: </em>`
     rooms.forEach(room => {
       roomsList.textContent += room
       if (room !== rooms[rooms.length - 1]) {
